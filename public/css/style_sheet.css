@@ -1,0 +1,40 @@
+body{
+
+}
+:root{
+    --f_c:#11151C;
+    --s_c:#212D40;
+    --t_c:#364156;
+    --f_dr_c:#7D4E57;
+    --fi_lr_c:#D66853;
+    --fon_c:#FFFFFF;
+}
+.light_mode{
+    --f_c:#FFFFFF;
+    --s_c: #b1bbb7;
+    --t_c: #488B8F;
+    --f_dr_c:#6E7DA2;
+    --fi_lr_c: #b49734;
+    --fon_c:#000000;
+}
+
+.primaryColor{
+    color: var(--fi_lr_c);
+}
+.bgColor{
+    background-color: var(--f_c);
+    color:var(--fon_c) ;
+}
+.bgDropColor{
+    background-color: var(--s_c);
+    color:var(--fi_lr_c) ;
+}
+#icon,#icon_resp{
+    width:20px ;
+    height: 20px;
+    margin-top: 25px;
+}
+.divIcon{
+    position: relative;
+    align-items: flex-start;
+}
