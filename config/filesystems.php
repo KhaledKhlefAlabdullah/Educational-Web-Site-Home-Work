@@ -56,14 +56,27 @@ return [
             'throw' => false,
         ],
         //////////////////////Create local disk
-        'videos' => [
+        'course_photo' => [
             'driver' => 'local',
-            'root'   => public_path() . '/'
+            'root' => storage_path('app/public/images/course_photo/'),
+            'url' => env('APP_URL').'/storage',
+            'visibility' => 'public',
+            'throw' => false,
         ],
-        'images' => [
+         'profile_photo' => [
             'driver' => 'local',
-            'root'   => public_path() . '/'
-        ]
+            'root' => storage_path('app/public/images/profile_photo/'),
+            'url' => env('APP_URL').'/storage',
+            'visibility' => 'public',
+            'throw' => false,
+        ],
+        'course_video' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/video/course_video/'),
+            'url' => env('APP_URL').'/storage',
+            'visibility' => 'public',
+            'throw' => false,
+        ],
 
     ],
 

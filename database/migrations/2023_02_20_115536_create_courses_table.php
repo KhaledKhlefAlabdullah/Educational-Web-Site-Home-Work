@@ -9,12 +9,16 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
+
     public function up(): void
     {
+
         Schema::create('courses', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('id')->unique();
             $table->string('course');
             $table->text('description')->nullable();
+            $table->float('price');
+            $table->foreignId('department_id')->constrained()->cascadeOnDelete();
             $table->timestamps();
         });
     }

@@ -1,0 +1,136 @@
+Learning Today 
+Leading Tomorrow
+Get Started
+Home
+knowledge
+About
+Courses
+Trainers
+Events
+Pricing
+Contact
+Dashboard
+Students => الطلاب
+Trainers => التدريبات
+Knowledge is educational website => موقع المعرفة هو موقع تعليمي
+This site was built by Khaled Al-Abdullah as a homework in Laravel Framework Training Course => تم بناء هذا الموقع من قبل خالد العبد الله كواجب منزلي في دورة إطار عمل لارافيل التدريبية
+The site is a principled work so there may be some errors => الموقع عمل مبدأي لذلك قد توجد فيه بعض الأخطاء
+You can add training courses or attend Tribe courses on the site => يمكنك اضافة دورات تدريبية أو حضور دورات تريبيه موجوجة على الموقع
+This site is my first site that I am fully working on => يعتبر هذا الموقع هو موقعي الأول الذي اعمل عليه بشكل كامل
+In case you encounter a problem, please go to contact and provide feedback => في حال واجهتم مشكلة ما ارجو الذهاب الى تواصل وتقديم ملاحظاتكم
+Why Choose Knowledge => لماذا تختار معرفة
+Well, there are lots of different educational sites but you choose a knowledge site because it is an easy and accessible site to find a lot of training and educational courses that benefit you in the labor market =>حسنا هنالك الكثير من المواقع التعليمية المتنوعة ولكن تختار موقع معرفة لانه موقع سهل ومتاح تجد عليه الكثير من الدورات التدريبية والتعليمية التي تفيدك في سوق العمل
+Learn More => معرفة المزيد
+diverse => متنوعة
+Diverse platform where you can find very diverse courses in all areas => المنصة متنوعة حيث يمكن أن تجد دورات متنوعة جدا في جميع المجالات
+simple => سهل
+Accessing the site and subscribing to the courses on it is easy and simple as you only need to access the site and subscribe to the course to join it => يعتبر الوصول الى الموقع والاشتراك في الدورات الموجودة عليه امر سهل وبسيط حيث لا تحتاج الا الى الدخول للموقع والاشتراك في الدورة للالتحاق بها
+available => متاح
+The site is available to all and we work to provide various trainings and courses to cover the needs of all students => الموقع متاح للجميع ونعمل على توفير مختلف التدريبات والدورات لتغطية احتياجات جميع الطلاب
+'Mathematics',
+            'Science',
+            'History',
+            'English',
+            'Art',
+            'Physical Education',
+            'Computer Science',
+            'Business Studies',
+            'Social Studies',
+            'Geography',
+            'Music',
+            'Foreign Languages',
+            'Health Education',
+            'Religious Studies',
+            'Psychology',
+            'Philosophy',
+            'Economics',
+            'Political Science',
+            'Environmental Science',
+            'Law',
+            'Engineering',
+            'Architecture',
+            'Journalism',
+            'Media Studies',
+            'Hospitality Management',
+            'Fashion Design',
+            'Culinary Arts',
+            'Film Studies',
+            'Animation',
+            'Graphic Design',
+            'Industrial Design',
+            'Interior Design',
+            'Performing Arts',
+            'Dance',
+            'Theater',
+            'Fine Arts',
+            'Visual Arts',
+            'Photography',
+            'Communication Studies',
+            'Education',
+            'Library Science',
+            'Public Administration',
+            'Web Development',
+            'Mobile Development',
+            'Game Development',
+            'Database Administration',
+            'Cybersecurity',
+            'Software Engineering',
+            'Artificial Intelligence',
+            'Machine Learning',
+            'Data Science',
+            'Cloud Computing',
+            'DevOps',
+            'Networking',
+            'Operating Systems',
+            'Embedded Systems',
+            'Computer Graphics',
+            'Computer Vision',
+            'Natural Language Processing',
+            'Robotics',
+            'Blockchain',
+            'Internet of Things',
+            'Quantum Computing',
+            'Programming Languages',
+            'Algorithms and Data Structures',
+            'Computer Architecture',
+            'Computer Organization',
+            'Compiler Design',
+            'Software Testing',
+            'Software Quality Assurance',
+            'Agile Development',
+            'Project Management',
+            'Technical Writing',
+            'User Experience Design',
+            'User Interface Design'
+Departments
+Course Name:
+Create New Course
+Description
+Select Department
+Price
+Create Course
+Your Courses
+Add New Course
+edite profile
+Delete
+Edit
+Details
+Update Course
+Upload Video
+Upload
+No Videos
+There are no videos for this course yet. Please check back later.
+Courses Available Now In This Department
+Whatsapp
+Github
+Facebook
+Instagram
+Admin Create User
+Password
+Confirm Password 	
+Dashboard
+Social
+Birth Date
+
+
+

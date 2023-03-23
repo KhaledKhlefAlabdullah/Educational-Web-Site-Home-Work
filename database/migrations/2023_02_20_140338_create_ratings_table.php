@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('ratings', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('id')->unique();
             $table->tinyInteger('rating')->nullable();
             $table->string('not')->nullable();
             $table->timestamps();

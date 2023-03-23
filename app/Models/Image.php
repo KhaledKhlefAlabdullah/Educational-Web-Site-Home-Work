@@ -16,10 +16,13 @@ class Image extends Model
     protected $fillable=[
         'title',
         'image',
-        'userInformation_id'
+
     ];
     public function course(){
         return $this->belongsToMany(Course::class);
+    }
+    public function details(){
+        return $this->belongsToMany(Details::class,'users_images','details_id','image_id');
     }
 
 

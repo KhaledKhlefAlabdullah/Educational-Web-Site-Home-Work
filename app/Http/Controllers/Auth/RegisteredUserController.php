@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use App\Models\Details;
+use App\Models\Image;
 use App\Models\User;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Auth\Events\Registered;
@@ -39,6 +41,17 @@ class RegisteredUserController extends Controller
             'email' => $request->email,
             'password' => Hash::make($request->password),
         ]);
+        $user->details()->create([
+            'user_id' => $user->id,
+            // Add any other details fields you want to create here
+        ]);
+        $detail=Details::where('user_id',$user->id)->first();
+        $image = new Image;
+        $image->title = 'default.png';
+        $image->image = 'images/profile_photo';
+        $image->save();
+
+        $detail->images()->attach($image->id);
 
         event(new Registered($user));
 
