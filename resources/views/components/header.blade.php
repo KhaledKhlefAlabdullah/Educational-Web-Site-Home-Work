@@ -23,12 +23,14 @@
                                 @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
                                     <li>
                                         <a rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
-                                            {{ $properties['native'] }}
+                                            <span class="flag-icon flag-icon-{{ $localeCode }}"></span> <!-- Flag icon -->
+                                            {{ $properties['name'] }} ({{ $properties['native'] }}) <!-- Language name and native name -->
                                         </a>
                                     </li>
                                 @endforeach
                             </ul>
-                         </x-sub-dropdown>
+
+                        </x-sub-dropdown>
 
                         @if (Route::has('login'))
                             @auth
