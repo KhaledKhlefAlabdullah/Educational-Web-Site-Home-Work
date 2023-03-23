@@ -1,5 +1,0 @@
-Get Courses By Apis
-http://127.0.0.1:8000/api/apiCourses
-
-Get Students By Apis
-http://127.0.0.1:8000/api/apiStudents
