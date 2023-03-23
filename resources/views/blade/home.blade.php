@@ -3,7 +3,7 @@
 @section('content')
     <section id="hero" class="d-flex justify-content-center align-items-center">
         <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
-            <h1>{{__("Learning Today,")}}<br>{{__("Leading Tomorrow")}}</h1>
+            <h1>{{__("Learning Today")}},<br>{{__("Leading Tomorrow")}}</h1>
             <x-log-in/>
 
         </div>
@@ -17,7 +17,7 @@
 
                 <div class="row">
                     <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-                        <img src="{{asset('assets/img')}}/about.jpg" class="img-fluid" alt="">
+                        <img src="{{asset('assets/img/about.jpg')}}" class="img-fluid" alt="">
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
                         <h3>{{__('Knowledge is educational website')}}</h3>
@@ -77,7 +77,7 @@
                 <div class="row">
                     <div class="col-lg-4 d-flex align-items-stretch">
                         <div class="content">
-                            <h3>{{__('Why Choose Knowledge?')}}</h3>
+                            <h3>{{__('Why Choose Knowledge')}}?</h3>
                             <p>
                                 {{__('Well, there are lots of different educational sites but you choose a knowledge site because it is an easy and accessible site to find a lot of training and educational courses that benefit you in the labor market')}}
                             </p>

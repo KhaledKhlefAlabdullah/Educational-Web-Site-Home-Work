@@ -26,7 +26,7 @@
                 <div class="col-md-9">
                     <div class="card">
                         <div class="card-body">
-                            <h3>About Me</h3>
+                            <h3>{{__('About Me')}}</h3>
                             <p class="text-muted">{{__("Birth Date")}}: {{ $user->birth_date }}</p>
                             <hr>
                             <h4>{{__('Social')}}</h4>
@@ -71,8 +71,8 @@
                             <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                                 <div class="member">
                                     @foreach($users_images as $ui)
-                                        <img src="@if($user1->user_id == $ui->user_id){{assert($ui->image.'/'.$ui->title)}} @break @else {{asset('images/profile_photo/image.png')}} @endif" class="img-fluid" alt="">
-
+                                        <img src="@if($user1->user_id == $ui->user_id){{assert($ui->image.'/'.$ui->title)}} @break @else {{asset('images/profile_photo/image.png')}}  @endif " class="img-fluid" alt="">
+                                        @break
                                     @endforeach
 
                                     <div class="member-content">
@@ -135,7 +135,7 @@
                                         @endif
                                     </h4>
 
-                                    <p class="price">{{$course->price}}</p>
+                                    <p class="price">{{$course->price}}$</p>
                                 </div>
 
                                 <h3><a href="{{route('courses.index_by_department',$course->department_id)}}">{{__($course->department)}}</a></h3>
