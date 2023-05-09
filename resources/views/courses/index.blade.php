@@ -25,7 +25,7 @@
                                         <h4 class="color-w">
                                             @if (Route::has('login'))
                                                     @auth
-                                                        <a href="{{route('courses.index_by_department',$course->c_id)}}" style="color: #e2e8f0" class="align-items-stretch  btn">{{__($course->course)}}</a>
+                                                        <a href="{{route('courses.addToStudent',$course->c_id)}}" style="color: #e2e8f0" class="align-items-stretch  btn">{{__($course->course)}}</a>
                                                     @endauth
                                                 @else
                                                     <a href="{{ route('login') }}" style="color: #e2e8f0" class="align-items-stretch  btn">{{__($course->course)}}</a>

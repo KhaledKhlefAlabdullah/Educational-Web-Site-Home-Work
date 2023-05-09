@@ -75,7 +75,8 @@
                         @if($detail->user_type == 'teacher')
                             <a href="{{route('admin.create_course',$detail->user_id)}}" class="col-lg-2 col-md-1 d-flex align-items-stretch mt-4 mt-md-0 btn btn-success">{{__('Add New Course')}}</a>
                         @elseif($detail->user_type == 'student')
-                            <a href="{{route('admin.add_student_to_course')}}" class="col-lg-2 col-md-1 d-flex align-items-stretch mt-4 mt-md-0 btn btn-success">{{__('join To Course')}}</a>
+                            {{--<a href="{{route('admin.add_student_to_course')}}" class="col-lg-2 col-md-1 d-flex align-items-stretch mt-4 mt-md-0 btn btn-success">{{__('join To Course')}}</a>--}}
+                            <a href="#" class="col-lg-2 col-md-1 d-flex align-items-stretch mt-4 mt-md-0 btn btn-success">{{__('join To Course')}}</a>
                         @endif
                     </h4><hr>
                     @foreach($courses as $course)
