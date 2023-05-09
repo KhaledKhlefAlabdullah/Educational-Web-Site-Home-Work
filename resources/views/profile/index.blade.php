@@ -153,20 +153,20 @@
                                     </div>
                                 </div>
                                 @if($user->user_type == 'teacher' || $user->user_type == 'admin')
-                                <form class="col-3" {{--action="{{route('courses.destroy',$course->c_id)}}" method="POST"--}}>
+                                <form class="col-3" action="{{route('courses.destroy',$course->c_id)}}" method="POST">
                                     @csrf
                                     @method('DELETE')
-                                    <button {{--type="submit"--}} class="btn btn-danger">{{__('Delete')}}</button>
+                                    <button type="submit" class="btn btn-danger">{{__('Delete')}}</button>
                                 </form>
                                 &nbsp;
                                     <a href="{{route('courses.edit',$course->c_id)}}" class="btn btn-info col-3">{{__('Edit')}}</a>
                                     &nbsp;
                                     <a href="{{route('courses.details',$course->c_id)}}" class="btn btn-primary col-3">{{__('Details')}}</a>
                                 @else
-                                    <form class="col-3" {{--action="{{route('courses.GoOutFromCourse',$course->c_id)}}" method="POST"--}}>
+                                    <form class="col-3" action="{{route('courses.GoOutFromCourse',$course->c_id)}}" method="POST">
                                         @csrf
                                         @method('DELETE')
-                                        <button {{--type="submit"--}} class="btn btn-danger">{{__('Delete')}}</button>
+                                        <button type="submit" class="btn btn-danger">{{__('Delete')}}</button>
                                     </form>
                                 @endif
                             </div>

@@ -97,7 +97,8 @@ class StaticController extends Controller
         $numberOfCourses = Course::count();
         $numberOfStudents = Details::where('user_type','student')->count();
         $numberOfEvents = Event::count();
-        $numberOfTrainers = Trainer::count();
+        $numberOfTrainers = Details::where('user_type', 'teacher')->count();
+
         $departments= Department::all();
         return view('blade/home',[
             'numberOfCourses'=>$numberOfCourses,

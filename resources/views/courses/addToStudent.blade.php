@@ -18,9 +18,12 @@
                         <div class="col-md-6 ">
                             <div class="card mb-4">
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <video class="embed-responsive-item" controls>
-                                        <source src="{{ $video->video }}/{{ $video->title }}" type="video/m4v,avi,flv,mp4,mov" >
-                                    </video>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <video class="embed-responsive-item" controls>
+                                            <source src="{{ $video->video }}/{{ $video->title }}" type="video/mp4" >
+                                        </video>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
